@@ -1,3 +1,11 @@
 = singlehome
 
-Description goes here
+To activate as redmine default home page add 
+
+
+   root :to => 'home#index', :as => 'home'
+
+to 
+
+   config/routes.rb
+   
